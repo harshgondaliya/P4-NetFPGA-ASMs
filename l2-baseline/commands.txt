@@ -1,0 +1,113 @@
+//
+// Copyright (c) 2017 Stephen Ibanez
+// All rights reserved.
+//
+// This software was developed by Stanford University and the University of Cambridge Computer Laboratory 
+// under National Science Foundation under Grant No. CNS-0855268,
+// the University of Cambridge Computer Laboratory under EPSRC INTERNET Project EP/H040536/1 and
+// by the University of Cambridge Computer Laboratory under DARPA/AFRL contract FA8750-11-C-0249 ("MRC2"), 
+// as part of the DARPA MRC research programme.
+//
+// @NETFPGA_LICENSE_HEADER_START@
+//
+// Licensed to NetFPGA C.I.C. (NetFPGA) under one or more contributor
+// license agreements.  See the NOTICE file distributed with this work for
+// additional information regarding copyright ownership.  NetFPGA licenses this
+// file to you under the NetFPGA Hardware-Software License, Version 1.0 (the
+// "License"); you may not use this file except in compliance with the
+// License.  You may obtain a copy of the License at:
+//
+//   http://www.netfpga-cic.org
+//
+// Unless required by applicable law or agreed to in writing, Work distributed
+// under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+// CONDITIONS OF ANY KIND, either express or implied.  See the License for the
+// specific language governing permissions and limitations under the License.
+//
+// @NETFPGA_LICENSE_HEADER_END@
+//
+
+table_cam_add_entry mac_exact mac_forward 02:02:02:02:02:02 => 0b00000001
+table_cam_add_entry mac_exact mac_forward 03:03:03:03:03:03 => 0b00000100
+table_cam_add_entry mac_exact mac_forward 04:04:04:04:04:04 => 0b00010000
+table_cam_add_entry mac_exact mac_forward 05:05:05:05:05:05 => 0b01000000
+table_cam_add_entry mac_exact mac_forward 06:06:06:06:06:06 => 0b00000001
+table_cam_add_entry mac_exact mac_forward 07:07:07:07:07:07 => 0b00000100
+table_cam_add_entry mac_exact mac_forward 08:08:08:08:08:08 => 0b00010000
+table_cam_add_entry mac_exact mac_forward 09:09:09:09:09:09 => 0b01000000
+
+table_cam_add_entry mac_exact mac_forward 10:10:10:10:10:10 => 0b00000001
+table_cam_add_entry mac_exact mac_forward 11:11:11:11:11:11 => 0b00000100
+table_cam_add_entry mac_exact mac_forward 12:12:12:12:12:12 => 0b00010000
+table_cam_add_entry mac_exact mac_forward 13:13:13:13:13:13 => 0b01000000
+table_cam_add_entry mac_exact mac_forward 14:14:14:14:14:14 => 0b00000001
+table_cam_add_entry mac_exact mac_forward 15:15:15:15:15:15 => 0b00000100
+table_cam_add_entry mac_exact mac_forward 16:16:16:16:16:16 => 0b00010000
+table_cam_add_entry mac_exact mac_forward 17:17:17:17:17:17 => 0b01000000
+
+table_cam_add_entry mac_exact mac_forward 18:18:18:18:18:18 => 0b00000001
+table_cam_add_entry mac_exact mac_forward 19:19:19:19:19:19 => 0b00000100
+table_cam_add_entry mac_exact mac_forward 20:20:20:20:20:20 => 0b00010000
+table_cam_add_entry mac_exact mac_forward 21:21:21:21:21:21 => 0b01000000
+table_cam_add_entry mac_exact mac_forward 22:22:22:22:22:22 => 0b00000001
+table_cam_add_entry mac_exact mac_forward 23:23:23:23:23:23 => 0b00000100
+table_cam_add_entry mac_exact mac_forward 24:24:24:24:24:24 => 0b00010000
+table_cam_add_entry mac_exact mac_forward 25:25:25:25:25:25 => 0b01000000
+
+table_cam_add_entry mac_exact mac_forward 26:26:26:26:26:26 => 0b00000001
+table_cam_add_entry mac_exact mac_forward 27:27:27:27:27:27 => 0b00000100
+table_cam_add_entry mac_exact mac_forward 28:28:28:28:28:28 => 0b00010000
+table_cam_add_entry mac_exact mac_forward 29:29:29:29:29:29 => 0b01000000
+table_cam_add_entry mac_exact mac_forward 30:30:30:30:30:30 => 0b00000001
+table_cam_add_entry mac_exact mac_forward 31:31:31:31:31:31 => 0b00000100
+table_cam_add_entry mac_exact mac_forward 32:32:32:32:32:32 => 0b00010000
+table_cam_add_entry mac_exact mac_forward 33:33:33:33:33:33 => 0b01000000
+
+table_cam_add_entry mac_exact mac_forward 34:34:34:34:34:34 => 0b00000001
+table_cam_add_entry mac_exact mac_forward 35:35:35:35:35:35 => 0b00000100
+table_cam_add_entry mac_exact mac_forward 36:36:36:36:36:36 => 0b00010000
+table_cam_add_entry mac_exact mac_forward 37:37:37:37:37:37 => 0b01000000
+table_cam_add_entry mac_exact mac_forward 38:38:38:38:38:38 => 0b00000001
+table_cam_add_entry mac_exact mac_forward 39:39:39:39:39:39 => 0b00000100
+table_cam_add_entry mac_exact mac_forward 40:40:40:40:40:40 => 0b00010000
+table_cam_add_entry mac_exact mac_forward 41:41:41:41:41:41 => 0b01000000
+
+table_cam_add_entry mac_exact mac_forward 42:42:42:42:42:42 => 0b00000001
+table_cam_add_entry mac_exact mac_forward 43:43:43:43:43:43 => 0b00000100
+table_cam_add_entry mac_exact mac_forward 44:44:44:44:44:44 => 0b00010000
+table_cam_add_entry mac_exact mac_forward 45:45:45:45:45:45 => 0b01000000
+table_cam_add_entry mac_exact mac_forward 46:46:46:46:46:46 => 0b00000001
+table_cam_add_entry mac_exact mac_forward 47:47:47:47:47:47 => 0b00000100
+table_cam_add_entry mac_exact mac_forward 48:48:48:48:48:48 => 0b00010000
+table_cam_add_entry mac_exact mac_forward 49:49:49:49:49:49 => 0b01000000
+
+table_cam_add_entry mac_exact mac_forward 50:50:50:50:50:50 => 0b00000001
+table_cam_add_entry mac_exact mac_forward 51:51:51:51:51:51 => 0b00000100
+table_cam_add_entry mac_exact mac_forward 52:52:52:52:52:52 => 0b00010000
+table_cam_add_entry mac_exact mac_forward 53:53:53:53:53:53 => 0b01000000
+table_cam_add_entry mac_exact mac_forward 54:54:54:54:54:54 => 0b00000001
+table_cam_add_entry mac_exact mac_forward 55:55:55:55:55:55 => 0b00000100
+table_cam_add_entry mac_exact mac_forward 56:56:56:56:56:56 => 0b00010000
+table_cam_add_entry mac_exact mac_forward 57:57:57:57:57:57 => 0b01000000
+
+table_cam_add_entry mac_exact mac_forward 58:58:58:58:58:58 => 0b00000001
+table_cam_add_entry mac_exact mac_forward 59:59:59:59:59:59 => 0b00000100
+table_cam_add_entry mac_exact mac_forward 60:60:60:60:60:60 => 0b00010000
+table_cam_add_entry mac_exact mac_forward 61:61:61:61:61:61 => 0b01000000
+table_cam_add_entry mac_exact mac_forward 62:62:62:62:62:62 => 0b00000001
+table_cam_add_entry mac_exact mac_forward 63:63:63:63:63:63 => 0b00000100
+table_cam_add_entry mac_exact mac_forward 64:64:64:64:64:64 => 0b00010000
+table_cam_add_entry mac_exact mac_forward 65:65:65:65:65:65 => 0b01000000
+
+table_cam_add_entry mac_exact mac_forward 66:66:66:66:66:66 => 0b00000001
+table_cam_add_entry mac_exact mac_forward 67:67:67:67:67:67 => 0b00000100
+table_cam_add_entry mac_exact mac_forward 68:68:68:68:68:68 => 0b00010000
+table_cam_add_entry mac_exact mac_forward 69:69:69:69:69:69 => 0b01000000
+table_cam_add_entry mac_exact mac_forward 70:70:70:70:70:70 => 0b00000001
+table_cam_add_entry mac_exact mac_forward 71:71:71:71:71:71 => 0b00000100
+table_cam_add_entry mac_exact mac_forward 72:72:72:72:72:72 => 0b00010000
+table_cam_add_entry mac_exact mac_forward 73:73:73:73:73:73 => 0b01000000
+
+table_cam_add_entry mac_exact mac_forward 74:74:74:74:74:74 => 0b00000001
+table_cam_add_entry mac_exact mac_forward 75:75:75:75:75:75 => 0b00000100
+table_cam_add_entry mac_exact mac_forward 76:76:76:76:76:76 => 0b00010000

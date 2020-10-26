@@ -1,0 +1,81 @@
+//
+// Copyright (c) 2017 Stephen Ibanez
+// All rights reserved.
+//
+// This software was developed by Stanford University and the University of Cambridge Computer Laboratory 
+// under National Science Foundation under Grant No. CNS-0855268,
+// the University of Cambridge Computer Laboratory under EPSRC INTERNET Project EP/H040536/1 and
+// by the University of Cambridge Computer Laboratory under DARPA/AFRL contract FA8750-11-C-0249 ("MRC2"), 
+// as part of the DARPA MRC research programme.
+//
+// @NETFPGA_LICENSE_HEADER_START@
+//
+// Licensed to NetFPGA C.I.C. (NetFPGA) under one or more contributor
+// license agreements.  See the NOTICE file distributed with this work for
+// additional information regarding copyright ownership.  NetFPGA licenses this
+// file to you under the NetFPGA Hardware-Software License, Version 1.0 (the
+// "License"); you may not use this file except in compliance with the
+// License.  You may obtain a copy of the License at:
+//
+//   http://www.netfpga-cic.org
+//
+// Unless required by applicable law or agreed to in writing, Work distributed
+// under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+// CONDITIONS OF ANY KIND, either express or implied.  See the License for the
+// specific language governing permissions and limitations under the License.
+//
+// @NETFPGA_LICENSE_HEADER_END@
+//
+
+table_tcam_add_entry ipv4_ternary 0x0 ipv4_forward 7.1.1.0/255.255.255.0 => 07:07:07:07:07:07 0b00000001
+table_tcam_add_entry ipv4_ternary 0x1 ipv4_forward 8.1.1.0/255.255.255.0 => 08:08:08:08:08:08 0b00000100
+table_tcam_add_entry ipv4_ternary 0x2 ipv4_forward 9.1.1.0/255.255.255.0 => 09:09:09:09:09:09 0b00010000
+table_tcam_add_entry ipv4_ternary 0x3 ipv4_forward 11.1.1.0/255.255.255.0 => 11:11:11:11:11:11 0b01000000
+table_tcam_add_entry ipv4_ternary 0x4 ipv4_forward 12.1.1.0/255.255.255.0 => 12:12:12:12:12:12 0b00000001
+table_tcam_add_entry ipv4_ternary 0x5 ipv4_forward 13.1.1.0/255.255.255.0 => 13:13:13:13:13:13 0b00000100
+table_tcam_add_entry ipv4_ternary 0x6 ipv4_forward 14.1.1.0/255.255.255.0 => 14:14:14:14:14:14 0b00010000
+table_tcam_add_entry ipv4_ternary 0x7 ipv4_forward 15.1.1.0/255.255.255.0 => 15:15:15:15:15:15 0b01000000
+table_tcam_add_entry ipv4_ternary 0x8 ipv4_forward 16.1.1.0/255.255.255.0 => 16:16:16:16:16:16 0b00000001
+table_tcam_add_entry ipv4_ternary 0x9 ipv4_forward 17.1.1.0/255.255.255.0 => 17:17:17:17:17:17 0b00000100
+table_tcam_add_entry ipv4_ternary 0xa ipv4_forward 18.1.1.0/255.255.255.0 => 18:18:18:18:18:18 0b00010000
+table_tcam_add_entry ipv4_ternary 0xb ipv4_forward 19.1.1.0/255.255.255.0 => 19:19:19:19:19:19 0b01000000
+table_tcam_add_entry ipv4_ternary 0xc ipv4_forward 20.1.1.0/255.255.255.0 => 20:20:20:20:20:20 0b00000001
+table_tcam_add_entry ipv4_ternary 0xd ipv4_forward 21.1.1.0/255.255.255.0 => 21:21:21:21:21:21 0b00000100
+table_tcam_add_entry ipv4_ternary 0xe ipv4_forward 22.1.1.0/255.255.255.0 => 22:22:22:22:22:22 0b00010000
+table_tcam_add_entry ipv4_ternary 0xf ipv4_forward 23.1.1.0/255.255.255.0 => 23:23:23:23:23:23 0b01000000
+
+table_tcam_add_entry ipv4_ternary 0x10 ipv4_forward 24.1.1.0/255.255.255.0 => 24:24:24:24:24:24 0b00000001
+table_tcam_add_entry ipv4_ternary 0x11 ipv4_forward 25.1.1.0/255.255.255.0 => 25:25:25:25:25:25 0b00000100
+table_tcam_add_entry ipv4_ternary 0x12 ipv4_forward 26.1.1.0/255.255.255.0 => 26:26:26:26:26:26 0b00010000
+table_tcam_add_entry ipv4_ternary 0x13 ipv4_forward 27.1.1.0/255.255.255.0 => 27:27:27:27:27:27 0b01000000
+table_tcam_add_entry ipv4_ternary 0x14 ipv4_forward 28.1.1.0/255.255.255.0 => 28:28:28:28:28:28 0b00000001
+table_tcam_add_entry ipv4_ternary 0x15 ipv4_forward 29.1.1.0/255.255.255.0 => 29:29:29:29:29:29 0b00000100
+table_tcam_add_entry ipv4_ternary 0x16 ipv4_forward 30.1.1.0/255.255.255.0 => 30:30:30:30:30:30 0b00010000
+table_tcam_add_entry ipv4_ternary 0x17 ipv4_forward 31.1.1.0/255.255.255.0 => 31:31:31:31:31:31 0b01000000
+table_tcam_add_entry ipv4_ternary 0x18 ipv4_forward 32.1.1.0/255.255.255.0 => 32:32:32:32:32:32 0b00000001
+table_tcam_add_entry ipv4_ternary 0x19 ipv4_forward 33.1.1.0/255.255.255.0 => 33:33:33:33:33:33 0b00000100
+table_tcam_add_entry ipv4_ternary 0x1a ipv4_forward 34.1.1.0/255.255.255.0 => 34:34:34:34:34:34 0b00010000
+table_tcam_add_entry ipv4_ternary 0x1b ipv4_forward 35.1.1.0/255.255.255.0 => 35:35:35:35:35:35 0b01000000
+table_tcam_add_entry ipv4_ternary 0x1c ipv4_forward 36.1.1.0/255.255.255.0 => 36:36:36:36:36:36 0b00000001
+table_tcam_add_entry ipv4_ternary 0x1d ipv4_forward 37.1.1.0/255.255.255.0 => 37:37:37:37:37:37 0b00000100
+table_tcam_add_entry ipv4_ternary 0x1e ipv4_forward 38.1.1.0/255.255.255.0 => 38:38:38:38:38:38 0b00010000
+table_tcam_add_entry ipv4_ternary 0x1f ipv4_forward 39.1.1.0/255.255.255.0 => 39:39:39:39:39:39 0b01000000
+
+table_tcam_add_entry ipv4_ternary 0x20 ipv4_forward 40.1.1.0/255.255.255.0 => 40:40:40:40:40:40 0b00000001
+table_tcam_add_entry ipv4_ternary 0x21 ipv4_forward 41.1.1.0/255.255.255.0 => 41:41:41:41:41:41 0b00000100
+table_tcam_add_entry ipv4_ternary 0x22 ipv4_forward 42.1.1.0/255.255.255.0 => 42:42:42:42:42:42 0b00010000
+table_tcam_add_entry ipv4_ternary 0x23 ipv4_forward 43.1.1.0/255.255.255.0 => 43:43:43:43:43:43 0b01000000
+table_tcam_add_entry ipv4_ternary 0x24 ipv4_forward 44.1.1.0/255.255.255.0 => 44:44:44:44:44:44 0b00000001
+table_tcam_add_entry ipv4_ternary 0x25 ipv4_forward 45.1.1.0/255.255.255.0 => 45:45:45:45:45:45 0b00000100
+table_tcam_add_entry ipv4_ternary 0x26 ipv4_forward 46.1.1.0/255.255.255.0 => 46:46:46:46:46:46 0b00010000
+table_tcam_add_entry ipv4_ternary 0x27 ipv4_forward 47.1.1.0/255.255.255.0 => 47:47:47:47:47:47 0b01000000
+table_tcam_add_entry ipv4_ternary 0x28 ipv4_forward 48.1.1.0/255.255.255.0 => 48:48:48:48:48:48 0b00000001
+table_tcam_add_entry ipv4_ternary 0x29 ipv4_forward 49.1.1.0/255.255.255.0 => 49:49:49:49:49:49 0b00000100
+table_tcam_add_entry ipv4_ternary 0x2a ipv4_forward 50.1.1.0/255.255.255.0 => 50:50:50:50:50:50 0b00010000
+table_tcam_add_entry ipv4_ternary 0x2b ipv4_forward 51.1.1.0/255.255.255.0 => 51:51:51:51:51:51 0b01000000
+table_tcam_add_entry ipv4_ternary 0x2c ipv4_forward 52.1.1.0/255.255.255.0 => 52:52:52:52:52:52 0b00000001
+table_tcam_add_entry ipv4_ternary 0x2d ipv4_forward 53.1.1.0/255.255.255.0 => 53:53:53:53:53:53 0b00000100
+table_tcam_add_entry ipv4_ternary 0x2e ipv4_forward 54.1.1.0/255.255.255.0 => 54:54:54:54:54:54 0b00010000
+table_tcam_add_entry ipv4_ternary 0x2f ipv4_forward 55.1.1.0/255.255.255.0 => 55:55:55:55:55:55 0b01000000
+
+table_tcam_add_entry ipv4_ternary 0x30 ipv4_forward 56.1.1.0/255.255.255.0 => 56:56:56:56:56:56 0b00000001
