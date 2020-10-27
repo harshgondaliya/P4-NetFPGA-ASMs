@@ -23,5 +23,5 @@ This repository contains the source code files required to realize the following
 ### Citation Details
 This work is presented at [EuroP4'20: 3rd P4 Workshop in Europe](https://p4.org/events/2020-12-01-euro-p4-workshop/). When referencing this work, please use the following citation:
 
-Harsh Gondaliya, Ganesh C. Sankaran, Krishna M Sivalingam, "Comparative Evaluation of IP Address Anti-Spoofing Mechanisms using a P4/NetFPGA-based Switch", EuroP4'20: 3rd P4 Workshop in Europe.
+Harsh Gondaliya, Ganesh C. Sankaran, Krishna M. Sivalingam, "Comparative Evaluation of IP Address Anti-Spoofing Mechanisms using a P4/NetFPGA-based Switch", EuroP4'20: 3rd P4 Workshop in Europe.
 [https://doi.org/10.1145/3426744.3431320](https://doi.org/10.1145/3426744.3431320)
